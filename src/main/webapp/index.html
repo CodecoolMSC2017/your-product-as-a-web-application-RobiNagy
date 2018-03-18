@@ -2,6 +2,8 @@
 <html>
 	<head>
 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The best product ever</title>
 		<link rel="stylesheet" href="index.css">
 
@@ -30,9 +32,10 @@
 
 	<p>Subscribe for our news letter for more info:</p>
 
-	<form>
+	<form action="HelloForm" method="post">
         <p>First name: <input type="text" name="firstName"></p>
-        <p>Last name: <input type="text" name="LastName"></p>
+        <p>Last name: <input type="text" name="lastName"></p>
+        <p>Your e-mail: <input type="text" name="email" placeholder="email@example.com"></p>
         <p><input type="submit" value="Submit"></p>
 	</form>
 

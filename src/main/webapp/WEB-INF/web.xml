@@ -11,7 +11,27 @@
         can be defined instead with annotations. For more search for information on
         "differences between java servlet api 2 and 3", etc.
     -->
-  <display-name>My first web application</display-name>
+    <display-name>My first web application</display-name>
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>com.codecool.web.servlet.HelloWorld</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloForm</servlet-name>
+        <servlet-class>com.codecool.web.servlet.HelloForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloForm</servlet-name>
+        <url-pattern>/HelloForm</url-pattern>
+    </servlet-mapping>
 
 </web-app>
 
