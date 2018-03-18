@@ -12,14 +12,6 @@
         "differences between java servlet api 2 and 3", etc.
     -->
   <display-name>My first web application</display-name>
-  <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>com.codecool.web.servlet.HelloServlet</servlet-class>
-  </servlet>
 
-  <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/servlet</url-pattern>
-  </servlet-mapping>
 </web-app>
 
